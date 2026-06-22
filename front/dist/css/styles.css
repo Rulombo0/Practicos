@@ -1,0 +1,124 @@
+body{
+    background-color:#F2884B;
+    color:white;
+}
+.navbar{
+    height:50px;
+    width:auto;
+    background-color:#F2B680;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #FFE7CC;
+}
+.navbar-brand{
+    color: white;
+}
+.logo{
+    width:60px;
+}
+
+.hero{
+    background-image: url("../../assets/img/bibliotecafondo.webp");
+    background-size: cover;
+    background-position: center;
+    height: 970px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+    color:#D9C8B4;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.hero h3{
+    font-size:35px;
+    color:#D9C8B4;
+     font-family: 'Merriweather', serif;
+}
+
+
+
+/* titulos de catalogos */
+
+.titulo-seccion{
+    text-align:center;
+    margin:50px 0;
+    font-size:45px;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+/* libros */
+
+.card{
+    background:none;
+    border:none;
+}
+
+.card img{
+    height:550px;
+    object-fit:cover;
+}
+
+.card-body{
+    color:white;
+}
+
+.card h5{
+    font-size:22px;
+    color:#FFF8F0;
+}
+
+
+/* imagenes de abajo de los catalogos */
+
+.imagen-centro{
+    width:350px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* importanca de leer NASHE */
+
+#importancia{
+    margin-top:60px;
+}
+
+#importancia h2{
+    font-size:70px;
+    font-weight:bold;
+}
+
+#importancia p{
+    font-size:20px;
+}
+
+/* libro naranja */
+
+.libro-naranja{
+    width:100%;
+    position:relative;
+}
+
+/* footer */
+
+footer{
+    background-color: #F2B680;
+    text-align:center;
+    padding:10px;
+}
+
+.logo-footer{
+    width:60px;
+    vertical-align:middle;
+}
