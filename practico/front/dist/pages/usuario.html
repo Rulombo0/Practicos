@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi cuenta | RuloLibros</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/auth.css">
+</head>
+
+<body>
+
+    <!-- seccion deusuario -->
+
+    <main class="contenedor_auth">
+
+        <section class="tarjeta_auth">
+
+            <div class="tarjeta_auth-encabezado">
+                <img src="../../assets/img/logo.png" class="tarjeta_auth-logo" alt="Logo de RuloLibros">
+                <h1>Hola, <span id="nombre-usuario"></span></h1>
+            </div>
+
+            <div class="tarjeta_auth-cuerpo text-center">
+
+                <p>Esta es tu sección de usuario en RuloLibros.</p>
+
+                <a href="../../index.html" class="btn btn-auth">Ver catálogo</a>
+
+                <button type="button" id="btn-logout" class="btn btn-auth">Cerrar sesión</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="../js/api.js"></script>
+
+    <script src="../js/usuario.js"></script>
+
+</body>
+
+</html>

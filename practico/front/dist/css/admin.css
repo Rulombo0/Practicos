@@ -1,0 +1,56 @@
+/* bg del panel */
+
+body{
+    background-color:#FBF4EC;
+    color:#3b2416;
+    font-family:'Open Sans', sans-serif;
+}
+
+/* navbar */
+
+.navbar_admin{
+    background-color:#2b1810;
+}
+
+.navbar_admin-marca{
+    color:#F2B680;
+    font-family:'Merriweather', serif;
+    font-weight:700;
+    font-size:20px;
+}
+
+.navbar_admin-usuario{
+    color:white;
+}
+
+/* menu admin */
+
+.menu_admin a{
+    display:block;
+    padding:10px 15px;
+    margin-bottom:5px;
+    border-radius:8px;
+    color:#3b2416;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.menu_admin a:hover{
+    background-color:#F2884B;
+    color:white;
+}
+
+/* secciones del panel */
+
+.caja_admin{
+    background-color:white;
+    border-top:4px solid #F2884B;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.caja_admin h2{
+    font-family:'Merriweather', serif;
+    font-size:24px;
+}

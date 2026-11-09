@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Iniciar sesión | RuloLibros</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/auth.css">
+</head>
+
+<body>
+
+    <!-- formulario del login -->
+
+    <main class="contenedor_auth">
+
+        <section class="tarjeta_auth">
+
+            <div class="tarjeta_auth-encabezado">
+                <img src="../../assets/img/logo.png" class="tarjeta_auth-logo" alt="Logo de RuloLibros">
+                <h1>Iniciar sesión</h1>
+            </div>
+
+            <div class="tarjeta_auth-cuerpo">
+
+                <div id="alerta-login" class="alert alert-danger d-none" role="alert"></div>
+
+                <form id="form-login">
+
+                    <div class="mb-3">
+                        <label for="usuario" class="form-label">Usuario</label>
+                        <input type="text" class="form-control" id="usuario" required autocomplete="username">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" required autocomplete="current-password">
+                    </div>
+
+                    <button type="submit" class="btn btn-auth w-100">Ingresar</button>
+
+                </form>
+
+                <p class="tarjeta_auth-pie">¿No tienes cuenta? <a href="registro.html">Regístrate</a></p>
+
+                <p class="tarjeta_auth-pie"><a href="../../index.html">Volver a RuloLibros</a></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="../js/api.js"></script>
+
+    <script src="../js/login.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+/* bg de la bibliotk */
+
+body{
+    min-height:100vh;
+    font-family:'Open Sans', sans-serif;
+    color:white;
+    background-image:linear-gradient(rgba(20, 10, 4, 0.6), rgba(20, 10, 4, 0.8)), url("../../assets/img/bibliotecafondo.webp");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+/* card centrada */
+
+.contenedor_auth{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.tarjeta_auth{
+    width:100%;
+    max-width:420px;
+    background-color:#F2884B;
+    border-radius:16px;
+    overflow:hidden;
+}
+
+.tarjeta_auth-encabezado{
+    background-color:#F2B680;
+    text-align:center;
+    padding:15px;
+}
+
+.tarjeta_auth-logo{
+    width:120px;
+}
+
+.tarjeta_auth-encabezado h1{
+    font-family:'Merriweather', serif;
+    font-size:26px;
+    margin:0;
+}
+
+.tarjeta_auth-cuerpo{
+    padding:25px;
+}
+
+/* formulario */
+
+.form-label{
+    font-weight:600;
+}
+
+.form-control{
+    background-color:#FFF8F0;
+    border:none;
+}
+
+.form-control:focus{
+    background-color:white;
+    box-shadow:0 0 0 3px #FFE7CC;
+}
+
+.form-control:-webkit-autofill{
+    -webkit-box-shadow:0 0 0 1000px #FFF8F0 inset;
+}
+
+.btn-auth{
+    background-color:#5a2d0c;
+    color:white;
+    font-weight:600;
+}
+
+.btn-auth:hover{
+    background-color:#7a3f14;
+    color:white;
+}
+
+/* links footerPIENASHE */
+
+.tarjeta_auth-pie{
+    text-align:center;
+    margin:15px 0 0;
+}
+
+.tarjeta_auth-pie a{
+    color:white;
+    font-weight:600;
+}
